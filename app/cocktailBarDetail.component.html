@@ -1,0 +1,6 @@
+<div *ngIf="cocktailBar">
+  <h3>{{cocktailBar.name}}</h3>
+  <div *ngFor="let cocktail of cocktails">
+    <h4>{{cocktail.name}}</h4>
+  </div>
+</div>
