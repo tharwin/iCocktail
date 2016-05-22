@@ -1,5 +1,8 @@
 <div *ngIf="cocktailBar">
   <h3>{{cocktailBar.name}}</h3>
+  <select name="ingredientTypeSelect">
+       <option *ngFor="let ingredientType of ingredientTypes" value="{{ingredientType.id}}">{{ingredientType.name}}</option>
+  </select>
   <div *ngFor="let cocktail of cocktails">
     <h4>{{cocktail.name}}</h4>
   </div>

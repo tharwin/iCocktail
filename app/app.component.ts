@@ -1,6 +1,7 @@
 import { Component }       from '@angular/core';
 import { CocktailBarService } from './cocktailBar.service';
 import { CocktailService } from './cocktail.service';
+import { IngredientTypeService } from './ingredientType.service';
 import { CocktailBarComponent } from './cocktailBar.component';
 import { CocktailBarDetailComponent } from './cocktailBarDetail.component';
 import { RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from '@angular/router-deprecated';
@@ -18,7 +19,8 @@ import { RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from '@angular/route
   providers: [
     ROUTER_PROVIDERS,
     CocktailBarService,
-    CocktailService
+    CocktailService,
+    IngredientTypeService
   ],
 
 })
