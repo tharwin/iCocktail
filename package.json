@@ -1,7 +1,7 @@
 {
-  "name": "angular2-quickstart",
+  "name": "iCocktail",
   "version": "1.0.0",
-  "description": "QuickStart package.json from the documentation, supplemented with testing support",
+  "description": "iCocktail",
   "scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
     "docker-build": "docker build -t ng2-quickstart .",
@@ -57,6 +57,9 @@
     "karma-jasmine": "^0.3.8",
     "protractor": "^3.3.0",
     "rimraf": "^2.5.2"
+  },
+  "engines": {
+    "node": "4.1.1"
   },
   "repository": {}
 }
