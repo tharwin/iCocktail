@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "iCocktail",
   "scripts": {
-
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "JD",
